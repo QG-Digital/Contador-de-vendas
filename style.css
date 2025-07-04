@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #2d3748;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    color: #4a5568;
+    font-size: 1.5rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+#btn10 {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+.counters {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.counter {
+    flex: 1;
+}
+
+.counter h3 {
+    font-size: 1rem;
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+}
+
+.counter p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.total {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e2e8f0;
+}
+
+.total h2 {
+    font-size: 1.2rem;
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+}
+
+.total p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2d3748;
+}
+
+.status {
+    min-height: 24px;
+    color: #4a5568;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador e Envio</title>
+    <!-- Link para a folha de estilo externa -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contador de Valores</h1>
+        <div class="buttons">
+            <button id="btn2" class="btn">2</button>
+            <button id="btn10" class="btn">10</button>
+        </div>
+        
+        <div class="counters">
+            <div class="counter">
+                <h3>Quantidade de 2</h3>
+                <p id="count2">0</p>
+            </div>
+            <div class="counter">
+                <h3>Quantidade de 10</h3>
+                <p id="count10">0</p>
+            </div>
+        </div>
+        
+        <div class="total">
+            <h2>Valor Total</h2>
+            <p id="totalValue">R$ 0,00</p>
+        </div>
+        
+        <div id="status" class="status"></div>
+    </div>
+
+    <!-- Link para o script externo. O 'defer' garante que o HTML será lido antes do script ser executado -->
+    <script src="script.js" defer></script>
+</body>
+</html>
